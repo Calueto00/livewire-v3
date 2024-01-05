@@ -16,4 +16,4 @@ use App\Livewire\Calculator;
 */
 
 Route::get('/', Index::class)->name('index.counter');
-Route::get('/calculator', Calculator::class)->name('index.counter');
+Route::get('/calculator', Calculator::class)->name('index.calculator');
