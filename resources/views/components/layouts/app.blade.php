@@ -12,7 +12,7 @@
         <nav class="flex bg-slate-700 text-white">
             <a href="/" class="py-4 px-6 hover:bg-slate-800" wire:navigate>Counter</a>
             <a href="/calculator" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Calculater</a>
-            <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>TodoList</a>
+            <a href="/todolist" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>TodoList</a>
             <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Cascading</a>
             <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Products</a>
             <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Image</a>
