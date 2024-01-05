@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Index;
+use App\Livewire\Calculator;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ use App\Livewire\Index;
 */
 
 Route::get('/', Index::class)->name('index.counter');
+Route::get('/calculator', Calculator::class)->name('index.counter');

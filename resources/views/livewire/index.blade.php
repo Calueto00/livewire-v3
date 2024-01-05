@@ -1,3 +1,4 @@
 <div>
    @livewire('counter')
+  
 </div>
