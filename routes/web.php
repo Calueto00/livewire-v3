@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\Index;
 use App\Livewire\Calculator;
 use App\Livewire\TodoList;
+use App\Livewire\CascadingDropDown;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ use App\Livewire\TodoList;
 Route::get('/', Index::class)->name('index.counter');
 Route::get('/calculator', Calculator::class)->name('index.calculator');
 Route::get('/todolist', TodoList::class)->name('index.todolist');
+Route::get('/cascadingdropdown', CascadingDropDown::class)->name('index.cascadingdropdown');
