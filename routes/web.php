@@ -5,6 +5,7 @@ use App\Livewire\Index;
 use App\Livewire\Calculator;
 use App\Livewire\TodoList;
 use App\Livewire\CascadingDropDown;
+use App\Livewire\ProductSearch;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,8 @@ use App\Livewire\CascadingDropDown;
 |
 */
 
-Route::get('/', Index::class)->name('index.counter');
-Route::get('/calculator', Calculator::class)->name('index.calculator');
-Route::get('/todolist', TodoList::class)->name('index.todolist');
-Route::get('/cascadingdropdown', CascadingDropDown::class)->name('index.cascadingdropdown');
+Route::get('/', Index::class)->name('counter');
+Route::get('/calculator', Calculator::class)->name('calculator');
+Route::get('/todolist', TodoList::class)->name('todolist');
+Route::get('/cascadingdropdown', CascadingDropDown::class)->name('cascadingdropdown');
+Route::get('/products', ProductSearch::class)->name('products');

@@ -6,6 +6,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Continent;
 use App\Models\Country;
+use App\Models\Product;
 
 class DatabaseSeeder extends Seeder
 {
@@ -26,6 +27,8 @@ class DatabaseSeeder extends Seeder
                 $c->countries()->saveMany(Country::factory(10)->make());
             });
         }
+
+        Product::factory(50)->create();
 
 
     }

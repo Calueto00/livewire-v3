@@ -14,7 +14,7 @@
             <a href="/calculator" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Calculater</a>
             <a href="/todolist" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>TodoList</a>
             <a href="/cascadingdropdown" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Cascading</a>
-            <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Products</a>
+            <a href="/products" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Products</a>
             <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Image</a>
             <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Registration</a>
         </nav>
