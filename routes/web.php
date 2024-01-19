@@ -7,6 +7,7 @@ use App\Livewire\TodoList;
 use App\Livewire\CascadingDropDown;
 use App\Livewire\ProductSearch;
 use App\Livewire\ImageUpload;
+use App\Livewire\RegisterForm;
 
 /*
 |--------------------------------------------------------------------------
