@@ -17,6 +17,7 @@
             <a href="/products" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Products</a>
             <a href="/imageupload" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Image</a>
             <a href="#" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>Registration</a>
+            <a href="/createImage" class="py-4 px-6 hover:bg-slate-800 " wire:navigate>createImage</a>
         </nav>
         {{ $slot }}
         @livewireScripts
